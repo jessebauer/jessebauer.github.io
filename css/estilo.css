@@ -30,6 +30,7 @@ body {
 .img {
     height: 100%;
     width: 100%;
+    background-color: black;
     background-image: url('../image/background.jpg');
     background-position: center;
     background-size: cover;
