@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mim Jessé</title>
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="nav.js">
 </head>
 
 <body>
@@ -22,29 +23,31 @@
             </nav>
         </header>
 
-        <div class="apresentacao"> EAE, TUDO BOM? <br> ME CHAMO <br>
-            <div class="titulo">JESSÉ MÜEHLBAUER</div>
-            <div class="cargo">DESENVOLVEDOR DE SOFTWARE <br> E ENG. CIVIL NAS HORAS VAGAS </div>
+        <div class="apresentacao" id="oi"> EAE, TUDO BOM? <br> ME CHAMO <br>
+            <div class="titulo" id="meunome">JESSÉ MÜEHLBAUER</div>
+            <div class="cargo" id="carg">DESENVOLVEDOR DE SOFTWARE <br> E ENG. CIVIL NAS HORAS VAGAS </div>
         </div>
 
         <a href="#sobre"> <img class="seta" src="./image/arrow-down.png" alt="arrow-down" width="3%"></a>
 
         <div id="sobre">
-            <div class="titulo">SOBRE MIM</div>
-            <img src="./image/jesse.jfif" class="rounded" />
-            <p>Já deve estar bem óbvio, mas mesmo assim vou repetir, me chamo Jessé Müehlbauer(como se já não tivesse meu nome bem grande ali em
+            <div class="titulo" data-anime="down">SOBRE MIM</div>
+            <img src="./image/jesse.jfif" class="rounded" data-anime="right" />
+            <p data-anime="right">Já deve estar bem óbvio, mas mesmo assim vou repetir, me chamo Jessé Müehlbauer(como
+                se já não tivesse
+                meu nome bem grande ali em
                 cima), eu tenho 22 anos, moro em Joinville, sou formado em Engenharia Civil e estou estudando
                 Desenvolvimento de Software pelo Entra21.</p>
         </div>
         <a href="#prog"> <img class="seta" src="./image/arrow-down.png" alt="arrow-down" width="3%"></a>
         <div id="prog">
-            <div class="titulo">Programação</div>
-            <p>Atualmente eu</p>
+            <div class="titulo" data-anime="left">Programação</div>
+            <p data-anime="left">Atualmente eu</p>
         </div>
 
     </div>
 
-
+    <script src="navbar.js"></script>
 </body>
 
 </html>
