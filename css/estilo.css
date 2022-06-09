@@ -13,7 +13,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #006699;
+    background: #8FA1A6;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -24,29 +24,32 @@ body::-webkit-scrollbar-thumb {
 
 body {
     text-align: center;
+
 }
 
 .img {
     height: 100%;
     width: 100%;
-    background-image: url('../image/background.png');
+    background-image: url('../image/background.jpg');
     background-position: center;
     background-size: cover;
     padding-bottom: 100%
 }
 
+
 nav a:hover {
-    color: #7ecdf5;
+    color: #00B9C3;
 }
+
 
 header {
     color: #fff;
     display: flex;
     padding: 2% 0 0 2%;
-    background-color: #3D5473;
+    background-color: #735A6A;
     height: auto;
     font-size: 36px;
-    border-bottom: 3px solid #94c2ff;
+    border-bottom: 3px solid #8FA1A6;
 }
 
 nav {
@@ -54,14 +57,30 @@ nav {
     height: auto;
     font-size: 20px;
     float: right;
-    min-width: 1px;
+}
+
+@media screen and (max-width:600px) {
+    .port {
+        display: none
+    }
+}
+
+@media screen and (max-width: 500px) {
+    nav {
+        display: none;
+
+    }
+
+    .port {
+        display: flex;
+    }
 }
 
 nav a {
     display: inline;
     float: right;
     margin: 0px 2%;
-    padding: 10px;
+    padding: 1%;
     color: white;
     border-radius: 2px;
     text-decoration: none;
@@ -103,10 +122,22 @@ nav a {
     margin-right: auto;
 }
 
+.blue {
+    margin-top: 70px;
+    color: #fff;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    font-weight: 700;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #00B9C3;
+}
 
 
 .titulo {
-    color: white;
+    color: #00B9C3;
     font-size: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -136,7 +167,7 @@ nav a {
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid #94c2ff;
+    border: 3px solid #00B9C3;
 }
 
 p {
@@ -148,9 +179,11 @@ p {
 
 .seta {
     margin-top: 10px;
-    border: 3px dotted #94c2ff;
+    border: 3px dotted #00B9C3;
     border-radius: 50%;
     padding: 1%;
+    alt: arrow-down;
+    width: 3%
 }
 
 #prog {
@@ -161,9 +194,6 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
 
 [data-anime] {
     opacity: 0;
