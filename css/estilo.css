@@ -36,7 +36,6 @@ body {
     padding-bottom: 100%
 }
 
-
 nav a:hover {
     color: #00B9C3;
 }
@@ -161,6 +160,11 @@ nav a {
     margin-right: auto;
 }
 
+.texto {
+    padding: 30px;
+    text-align: justify;
+    text-size-adjust: 2%;
+}
 
 .rounded {
     margin-top: 40px;
