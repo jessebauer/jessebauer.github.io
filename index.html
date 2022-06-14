@@ -8,6 +8,31 @@
     <title>Jessé Müehlbauer</title>
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="nav.js">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("a").on('click', function (event) {
+
+
+                if (this.hash !== "") {
+
+                    event.preventDefault();
+
+                    var hash = this.hash;
+
+
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 1200, function () {
+
+
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
 </head>
 
 
@@ -40,10 +65,10 @@
             </div>
 
 
-            <a href=" #sobre"> <img class="seta" src="./image/arrow.gif"></a>
+            <a href="#sobre"> <img class="seta" src="./image/arrow.gif"></a>
 
             <div id="sobre">
-                <div class="titulo" data-anime="down">SOBRE MIM</div>
+                <div class="titulo" data-anime="left">SOBRE MIM</div>
                 <img src="./image/jesse.jfif" class="rounded" data-anime="right" />
                 <p class="texto" data-anime="down">Já deve estar bem óbvio, mas mesmo assim vou repetir, me chamo Jessé
                     Müehlbauer(como se já não tivesse meu nome bem grande ali emcima), tenho 22 anos, moro em
@@ -58,7 +83,7 @@
                 <div class="titulo" data-anime="left">Conhecimentos</div>
                 <p class="textoCentral" data-anime="down">Dentre os meus conhecimentos em programação, posso citar:</p>
 
-                <div class="caixaimagem" data-anime="left">
+                <div class="caixaimagem" data-anime="down">
                     <img class="icons" src="./image/js.png" alt=""><img class="icons" src="./image/csharp.png"
                         alt="cSharpIcon"><img class="icons" src="./image/html.png" alt="htmlIcon"><img class="icons"
                         src="./image/css.png" alt="cssIcon"><img class="icons" src="./image/node.png"
@@ -70,7 +95,7 @@
                 <div class="titulo" data-anime="down">Contatos</div>
                 <p class="textoCentral" data-anime="down"> Esteja a vontade para me contatar clicando nas opções abaixo:
                 </p>
-                <div class="caixaimagem">
+                <div class="caixaimagem" data-anime="down">
                     <a href="https://www.linkedin.com/in/jesse-muehlbauer/" target="_blank"><img class="icons"
                             src="./image/linkedin.png" alt="linedinIcon"></a><a href="https://github.com/jessebauer"
                         target="_blank"><img class="icons" src="./image/github.png" alt="gitHubIcon"></a><a

@@ -28,7 +28,7 @@ body {
 }
 
 .img {
-    height: 4000px;
+    height: 3600px;
     width: auto;
     background-image: url('../image/backgroundmenor.jpg');
     background-position: center;
@@ -222,8 +222,28 @@ nav a {
     margin-top: -10vh;
     margin-left: auto;
     margin-right: auto;
-    float: inline-end;
+    position: static;
 }
+
+.seta {
+    animation: downS 5s ease-in;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes downS {
+    from {
+        opacity: 0;
+
+    }
+
+    to {
+        opacity: 1;
+
+    }
+}
+
 
 #prog {
     padding-top: 75px;
