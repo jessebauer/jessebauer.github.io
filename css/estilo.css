@@ -28,7 +28,7 @@ body {
 }
 
 .img {
-    height: 3500px;
+    height: 4000px;
     width: 100%;
     background-image: url('../image/backgroundmenor.jpg');
     background-position: center;
@@ -233,7 +233,7 @@ nav a {
     margin: 2%;
 }
 
-.contatos {
+.contato {
     padding-top: 75px;
     padding-bottom: 75px;
     color: white;
