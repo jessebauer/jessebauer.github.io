@@ -1,4 +1,5 @@
 function initAnimationToScroll() {
+
     const elementosAnimados = document.querySelectorAll('[data-anime]');
     console.log(elementosAnimados);
 
@@ -19,3 +20,9 @@ function initAnimationToScroll() {
 }
 
 initAnimationToScroll();
+
+
+const Click = function () {
+    document.getElementById("imgsubir").style.opacity = "0";
+}
+

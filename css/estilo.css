@@ -13,13 +13,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #8FA1A6;
+    background: #4F5259;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: rgb(74, 138, 233);
+    background-color: #6a717356;
     border-radius: 20px;
-    border: 3px solid #00B9C3;
+    border: 3px solid #6A7173;
 }
 
 body {
@@ -28,7 +28,7 @@ body {
 }
 
 .img {
-    height: 100%;
+    height: 3500px;
     width: 100%;
     background-image: url('../image/backgroundmenor.jpg');
     background-position: center;
@@ -37,18 +37,20 @@ body {
 }
 
 nav a:hover {
-    color: #00B9C3;
+    color: #5CF7FF;
 }
 
+/* 8FA1A6 */
 
 header {
     color: #fff;
     display: flex;
     padding: 2% 0 0 2%;
-    background-color: #735A6A;
+    background-color: #383240;
     height: auto;
     font-size: 36px;
-    border-bottom: 3px solid #8FA1A6;
+    border-bottom: 3px solid #5CF7FF;
+    box-shadow: 1px 1px 1px 1px #5cf7ff91;
 }
 
 nav {
@@ -132,12 +134,27 @@ nav a {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    color: #00B9C3;
+    color: #5CF7FF;
 }
 
+#subir {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+
+#imgsubir {
+    position: relative;
+    min-width: 40px;
+    width: 3%;
+    height: 3%;
+    float: right;
+    margin-right: 15%;
+}
 
 .titulo {
-    color: #00B9C3;
+    color: #5CF7FF;
     font-size: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -167,6 +184,9 @@ nav a {
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .rounded {
@@ -176,16 +196,15 @@ nav a {
     height: 300px;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid #00B9C3;
+    border: 3px solid #5CF7FF;
 }
 
 
 
 .seta {
-    margin-top: -120px;
-    border-radius: 50%;
-    padding-top: 1%;
-    alt: arrow-down;
+    margin-left: auto;
+    margin-right: auto;
+    float: inline-end;
 }
 
 #prog {
@@ -195,6 +214,36 @@ nav a {
     font-size: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.caixatexto {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(20px);
+}
+
+.icons {
+    width: 30%;
+    min-width: 70px;
+    max-width: 130px;
+    min-height: 70px;
+    max-height: 130px;
+    height: 30%;
+    margin: 2%;
+}
+
+.contatos {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: white;
+    font-size: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+[clicked] {
+    opacity: 0;
 }
 
 [data-anime] {

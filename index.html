@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="nav.js">
 </head>
 
+
 <body>
     <div class="img">
         <div class="alinha">
@@ -17,12 +18,19 @@
                 <h1 class="port"><b>PORTIFÓLIO</b></h1>
 
                 <nav>
-                    <a class="link4" href="./contato.html"> Contatos</a>
-                    <a class="link3" href="#prog"> Programação</a>
+                    <a class="link4" href="#contato"> Contatos</a>
+                    <a class="link3" href="#prog"> Conhecimentos</a>
                     <a class="link2" href=#sobre> Sobre mim</a>
                     <a class="link1" href="#inicio"> Inicio</a>
                 </nav>
             </header>
+            <a href="">
+                <div id="subir"> <img id="imgsubir" data-anime="clicked" onclick="Click()" src="./image/arrowup.png"
+                        alt="">
+                </div>
+            </a>
+
+
             <div class="apresentacao" id="oi">
 
                 <span class="blue">EAE</span> , TUDO BOM? <br> ME CHAMO <br>
@@ -38,19 +46,31 @@
                 <div class="titulo" data-anime="down">SOBRE MIM</div>
                 <img src="./image/jesse.jfif" class="rounded" data-anime="right" />
                 <p class="texto" data-anime="down">Já deve estar bem óbvio, mas mesmo assim vou repetir, me chamo Jessé
-                    Müehlbauer(como se já não tivesse meu nome bem grande ali emcima), eu tenho 22 anos, moro em
-                    Joinville, sou formado em Engenharia Civil e estou estudandoDesenvolvimento de Software pelo
+                    Müehlbauer(como se já não tivesse meu nome bem grande ali emcima), tenho 22 anos, moro em
+                    Joinville, sou formado em Engenharia Civil e estou estudando Desenvolvimento de Software pelo
                     Entra21.</p>
-                <a href="#prog"> <img class="seta" src="./image/arrow.gif"></a>
+                <a href="#prog"> <img class="seta" data-anime="down" src="./image/arrow.gif"></a>
             </div>
 
             <div id="prog">
-                <div class="titulo" data-anime="left">Programação</div>
-                <p class="texto" data-anime="down">Já deve estar bem óbvio, mas mesmo assim vou repetir, me chamo Jessé
-                    Müehlbauer(como se já não tivesse meu nome bem grande ali emcima), eu tenho 22 anos, moro em
-                    Joinville, sou formado em Engenharia Civil e estou estudandoDesenvolvimento de Software pelo
-                    Entra21.</p>
-                <a href="#prog"> <img class="seta" src="./image/arrow.gif"></a>
+                <div class="titulo" data-anime="left">Conhecimentos</div>
+                <p class="texto" data-anime="down">Dentre os meus conhecimentos em programação, posso citar:</p>
+                <a href="#prog">
+                    <div class="caixatexto" data-anime="down">
+                        <img class="icons" src="./image/js.png" alt=""><img class="icons" src="./image/csharp.png"
+                            alt=""><img class="icons" src="./image/html.png" alt=""><img class="icons"
+                            src="./image/css.png" alt=""><img class="icons" src="./image/node.png" alt=""><img
+                            class="icons" src="./image/netcore.png" alt="">
+                    </div>
+
+
+
+                </a>
+                <a href="#contato"> <img class="seta" data-anime="down" src="./image/arrow.gif"></a>
+            </div>
+            <div id="contato">
+                <div id="contato" class="titulo" data-anime="right">Contatos</div>
+                <p class="texto" data-anime="left"> Aqui vão os meus contatos com link</p>
             </div>
 
         </div>
