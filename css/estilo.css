@@ -57,7 +57,7 @@ header {
 nav {
     width: 100%;
     height: auto;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -65,27 +65,17 @@ nav {
     nav {
         display: grid;
     }
+
 }
 
-/* @media screen and (max-width: 500px) {
-    nav {
-        display: none;
-
-    }
-
-    .port {
-        display: flex;
-    }
-} */
-
 nav a {
-    display: inline-block@;
+    display: inline-block;
     margin: 0px 2%;
     padding: 1%;
     color: white;
     border-radius: 2px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 #meunome,
