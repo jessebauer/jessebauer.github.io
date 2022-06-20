@@ -312,3 +312,9 @@ nav a {
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
 }
+
+footer {
+    background-color: #4F5259;
+    text-align: center;
+    width: 100%;
+}
