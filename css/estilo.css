@@ -29,8 +29,9 @@ body {
 }
 
 .img {
-    height: 3400px;
+    height: auto;
     width: auto;
+    padding-bottom: 10%;
     background-image: url('../image/backgroundmenor.jpg');
     background-position: center;
     background-size: cover;
@@ -66,6 +67,14 @@ nav {
         display: grid;
     }
 
+    .texto {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
+
+    .background {
+        height: 7000px;
+    }
 }
 
 nav a {
@@ -171,14 +180,12 @@ nav a {
     padding: 30px;
     text-align: justify;
     font-size: 20px;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 25%;
+    padding-right: 25%;
     padding-top: 3%;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
     height: fit-content;
-
 }
 
 .textoCentral {
@@ -262,8 +269,6 @@ nav a {
 }
 
 .contato {
-    padding-top: 75px;
-    padding-bottom: 75px;
     color: white;
     font-size: 50px;
     margin-left: auto;
