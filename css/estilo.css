@@ -29,7 +29,7 @@ body {
 }
 
 .img {
-    height: auto;
+    height: 3200px;
     width: auto;
     padding-bottom: 10%;
     background-image: url('../image/backgroundmenor.jpg');
@@ -72,8 +72,8 @@ nav {
         padding-right: 5% !important;
     }
 
-    .background {
-        height: 7000px;
+    body .img {
+        height: 3500px;
     }
 }
 
